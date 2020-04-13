@@ -2,7 +2,7 @@
 function $(a) {return document.querySelector(a);}
 function $$(a) {return document.querySelectorAll(a);}
 
-function translate() {
+function pEiKTs() {
   // 파일
   $$(".menu a")[0].innerText = "파일"
     $$(".menu a")[1].innerHTML = "새 이미지" + $$(".menu a span")[0].outerHTML;
