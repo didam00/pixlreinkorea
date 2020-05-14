@@ -90,6 +90,9 @@ function pEiKTs() {
     listChild(3, 14).innerHTML = "마스크 적용";
     listChild(3, 15).innerHTML = "마스크 제거";
     listChild(3, 16).innerHTML = "더 많은 마스크";
+      childsChild(3, 16, 0).innerHTML = "마스크 반전"
+      childsChild(3, 16, 1).innerHTML = "레이어에서 마스크 추출"
+      childsChild(3, 16, 2).innerHTML = "마스크를 선택 영역으로 전환"
     
   // 선택
   $$(".menu>li>a")[4].innerHTML = "선택";
