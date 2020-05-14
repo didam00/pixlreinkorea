@@ -7,3 +7,8 @@ Pixlr E (https://pixlr.com/e/) 을 번역하는 코드입니다.
 ```javascript
 let pEiK = document.createElement("script"); pEiK.src = "https://didam00.github.io/pixlreinkorea/pixlr_in_korean.js"; document.head.appendChild(pEiK); pEiK.onload = function () {pEiKTs()};
 ```
+
+***
+
+###### **2020.05.14**
+##### Ctrl + D 를 통해 이제 레이어를 복사할 수 있습니다!
