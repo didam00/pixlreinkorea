@@ -70,7 +70,7 @@ function pEiKTs() {
   // 레이어
   $$(".menu>li>a")[3].innerHTML = "레이어";
     listChild(3, 0).innerHTML = "새 레이어";
-    listChild(3, 1).innerHTML = "레이어 복사";
+    listChild(3, 1).innerHTML = "레이어 복사" + "<span>Ctrl + D</span>";
     listChild(3, 2).innerHTML = "이미지 레이어 생성..";
     listChild(3, 3).innerHTML = "요소 레이어 생성..";
     listChild(3, 4).innerHTML = "이미지 링크 레이어 생성..";
