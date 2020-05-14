@@ -11,4 +11,4 @@ let pEiK = document.createElement("script"); pEiK.src = "https://didam00.github.
 ***
 
 ###### **2020.05.14**
-##### Ctrl + D 를 통해 이제 레이어를 복사할 수 있습니다!
+###### Ctrl + D 를 통해 이제 레이어를 복사할 수 있습니다!
