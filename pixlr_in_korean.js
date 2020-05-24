@@ -188,13 +188,19 @@ function pEiKTs() {
 
   console.log("%c# 깃허브 링크 : https://github.com/didam00/pixlreinkorea/","font-family: 굴림; font-weight: 900;")
 
+  var isShift = false;  
   var isCtrl = false;  
+  var isAlt = false;  
   document.onkeyup = function(e){  
+    if(e.which == 16) isShift=false;  
     if(e.which == 17) isCtrl=false;  
+    if(e.which == 18) isAlt=false;  
   }  
   document.onkeydown = function(e){  
+    if(e.which == 16) isShift=true;  
     if(e.which == 17) isCtrl=true;  
-    if(e.which == 68 && isCtrl == true) {  
+    if(e.which == 18) isAlt=true;  
+    if(e.which == 68 && isCtrl == true && isShift == true) {  
       console.log("copy")
       $(".layer.selected .more").click(); $("#layer-settings-duplicate").click();
       return false;  
