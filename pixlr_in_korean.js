@@ -200,7 +200,7 @@ function pEiKTs() {
     if(e.which == 16) isShift=true;  
     if(e.which == 17) isCtrl=true;  
     if(e.which == 18) isAlt=true;  
-    if(e.which == 68 && isCtrl == true && isShift == true) {  
+    if(e.which == 68 && isCtrl == true && isAlt == true) {  
       console.log("copy")
       $(".layer.selected .more").click(); $("#layer-settings-duplicate").click();
       return false;  
